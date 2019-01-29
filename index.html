@@ -2,16 +2,201 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+	 crossorigin="anonymous">
+	<title>Document</title>
 </head>
 
 <body>
-    <h1>This is the best</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quae libero, nam laudantium possimus ad quis
-        consectetur omnis ratione aliquam sed eveniet nihil illum illo nisi consequuntur cupiditate! Suscipit, nobis.</p>
+	<header>
+
+		<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+						 aria-haspopup="true" aria-expanded="false">
+							Dropdown
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav> -->
+
+		<div class="header">
+			<nav>
+				<span>GM REFACCIONES</span>
+			</nav>
+			<span class="hamb">MENU</span>
+			<nav class="nav2">
+				<span>Inicio</span>|
+				<span>
+					<a href="#asisehace">
+						Tienda
+					</a>
+				</span>|
+				<span>Carrito</span>|
+				<span>Contáctanos</span>|
+				<span>Mi Cuenta</span>|
+			</nav>
+		</div>
+		<!-- <div class="marcas">
+			<span><img src="Images/buickpng.png" width="15px" height="15px" alt="nada"></span>|
+			<span>Tienda</span>|
+			<span>Carrito</span>|
+			<span>Contáctanos</span>|
+			<span>Mi Cuenta</span>|
+		</div> -->
+	</header>
+	<div class="marcas">
+		<span><img src="Images/buickpng.png" alt="nada"></span>
+		<span><img src="Images/Cadillacpng.png" alt="nada"></span>
+		<span><img src="Images/logopngchevrolet.png" alt="nada"></span>
+		<span><img src="Images/GMCpng.png" alt="nada"></span>
+
+	</div>
+
+
+
+
+	<main>
+		<section class="main-section cover">
+			<article class="layout">
+				<h1>Obten un 10% en tu primer pedido</h1>
+				<p>Registrate y cotiza tu pieza ahora</p>
+				<button class=button>Cotizador</button>
+			</article>
+		</section>
+		<section class="main-section">
+			<div class="card-group" id='asisehace'>
+				<div class="card">
+					<img src="Images/Piezasmotor.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Todo para Motor</h5>
+						<p class="card-text">Encuentra todo para tu motor, desde arbol de levas, cabezas de motor, pistones, bloques....</p>
+						<a href="#" class="button">Más para tu motor</a>
+					</div>
+				</div>
+				<div class="card">
+					<img src="images/Piezaskit.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Kits de Mantenimiento</h5>
+						<p class="card-text">Kits completos para el mantenimiento de tu auto. Todo lo que necesitas para que tu auto
+							funcione.</p>
+						<a href="#" class="button">Más Kits</a>
+					</div>
+				</div>
+				<div class="card">
+					<img src="images/Piezasfrenos.png" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Frenos</h5>
+						<p class="card-text">Todo para el sistema de frenado para tu auto.</p>
+						<a href="#" class="button">Más Frenos</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main-section parallax"></section>
+		<section class="main-section2">
+			<p id=hola>Escribenos, nosotros nos ponemos en contacto contigo.</p>
+		</section>
+	</main>
+
+	<div>
+		<form>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Dejanos tu correo</label>
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tucorreo@example.com">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Tu nombre</label>
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlSelect1">Tipo de Cliente</label>
+				<select class="form-control" id="exampleFormControlSelect1">
+					<option>Empresa</option>
+					<option>Taller</option>
+					<option>Personal</option>
+
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlSelect2">Tu pedido</label>
+				<select multiple class="form-control" id="exampleFormControlSelect2">
+					<option>Ingresa las refacciones que necesites :)</option>
+					<option>Ejemplo Filtro</option>
+					<option>Ejemplo Frenos</option>
+					<option>Ejemplo Kits</option>
+					<option>Ejemplo Suspension</option>
+				</select>
+				<span class="button1">
+					<a href="#">Enviar Cotización</a>
+				</span>
+			</div>
+
+	</div>
+	<section class="perrona">
+		<iframe class="maps" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDIVcAq0kC8s4sHQgRnJyIzXoHDzWNgLwU
+    &q=Space+Needle,Seattle+WA">
+		</iframe>
+		<img src="images/Almacen.jpg" alt="nada">
+	</section>
+
+
+
+
+	<footer>
+
+
+	</footer>
+
 </body>
 
 </html>
+
+<footer id="main-footer">
+	<article>
+		<div>
+			<h4>Tel. 818354324</h4>
+		</div>
+
+	</article>
+	<article class="redes">
+		<span>GM Refacciones </span>
+		<i class="fab fa-facebook-f"></i>
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-twitter"></i>
+	</article>
+</footer>
